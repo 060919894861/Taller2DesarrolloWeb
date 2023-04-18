@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Inventario Desarrollo Web</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .container mt-5 img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="container-fluid d-flex justify-content-center">
+            <img src="html-5_318-674282.avif" alt="" class="col-md-1">
+            <br>
+        </div>
+        <h1 style="text-align: center"> Taller N° 2</h1>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Punto1.html">Actividad 1</a>
+              
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Punto2.html">Actividad 2 </a>
+            </li>
+          </ul>
+    </div>
+    <div class="container">
+        <h2>Actividad 2</h2>
+        <hr>
+        <div class="form-group">
+            <label for="num1">Número 1: </label>
+            <input type="number" class="form-control" id="num1" placeholder="ingrese un número" name="num1">
+        </div>
+        <div class="form-group">
+            <label for="num2">Número 2: </label>
+            <input type="number" class="form-control" id="num2" placeholder="ingrese un número" name="num2">
+        </div>
+        <div class="form-group">
+            <label for="num3">Número 3: </label>
+            <input type="number" class="form-control" id="num3" placeholder="ingrese un número" name="num3">
+        </div>
+        <div class="form-group">
+            <label for="num4">Número 4: </label>
+            <input type="number" class="form-control" id="num4" placeholder="ingrese un número" name="num4">
+            <br>
+        <button type="submit" id="btn2" class="btn btn-default">Calcular</button>
+    </div>
+    <div id='result'></div>
+
+</div>
+<script src="main.js"></script>
+</body>
+
+</html>
